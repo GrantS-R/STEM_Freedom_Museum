@@ -1,0 +1,11 @@
+--color-backround: #cedbde
+
+body {
+    font-family: "Trebuchet MS" sans-serif;
+    background: var(color);
+}
+
+h1 h2 h3 {
+    font-family: Georgia serif;
+}
+
