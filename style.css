@@ -2,6 +2,8 @@
     --color-foreground: #eeeeee;
     --color-background: #08605f;
     --color-text: #111111;
+    /* --color-link: #111177;
+    --color-link-hover: #551155; */
 }
 
 body {
@@ -43,10 +45,19 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-a.title {
+header > a {
     font-size: 2.15em;
     color: var(--color-text);
     margin: 0;
+}
+
+a:link, a:visited {
+    color: var(--color-text);
+}
+
+a:hover, a:active {
+    color: var(--color-text);
+    text-decoration: none;
 }
 
 article > img.display {
@@ -56,12 +67,12 @@ article > img.display {
     max-height: 75vh;
     width: calc(65% + 100px);
     object-fit: contain;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
     margin-left: auto;
     margin-right: auto;
 }
 
-article > p {
+div.caption {
     font: caption;
     font-size: 1.15em;
     width: calc(65% + 100px);
