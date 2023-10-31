@@ -60,7 +60,7 @@ a:hover, a:active {
     text-decoration: none;
 }
 
-article > img.display {
+img.display {
     display: block;
     margin-top: 2em;
     max-width: 90%;
