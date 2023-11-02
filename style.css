@@ -6,7 +6,7 @@
     --color-link-hover: #551155; */
 }
 
-body {
+html, body {
     background-color: var(--color-background);
     font: serif;
 }
@@ -88,5 +88,13 @@ nav {
     font-size: 1.15em;
     margin-top: 0.47em;
     margin-right: 0.2em;
+}
+
+nav > a:link, nav > a:visited {
+    text-decoration: none !important;
+}
+
+nav > a:hover, nav > a:active {
+    text-decoration: underline !important;
 }
 
